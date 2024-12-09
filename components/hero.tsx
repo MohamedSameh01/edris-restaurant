@@ -53,7 +53,7 @@ export function Hero() {
         className="absolute inset-0 z-20 flex items-center justify-center text-center text-white px-4"
       >
         <div className="max-w-4xl">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6">مطعم السودان</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6">مطعم حوش ادريس</h1>
           <p className="text-lg sm:text-xl md:text-2xl">
             نقدم لكم أشهى وألذ المأكولات السودانية الأصيلة في المملكة العربية السعودية
           </p>
