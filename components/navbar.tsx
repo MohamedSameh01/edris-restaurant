@@ -17,7 +17,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className="fixed w-full bg-white shadow-md z-50"
@@ -25,15 +25,16 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">
-            <Image
+            {/* <Image
               src="/logo.png"
               alt="شعار المطعم"
               width={50}
               height={50}
               className="h-12 w-auto"
-            />
+            /> */}
+            <h1 className="text-primary text-3xl">حوش ادريس</h1>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="flex space-x-4 space-x-reverse">
               {navLinks.map((link) => (
@@ -60,7 +61,7 @@ export function Navbar() {
       </div>
 
       {isOpen && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           className="md:hidden"

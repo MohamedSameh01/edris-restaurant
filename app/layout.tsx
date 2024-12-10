@@ -11,15 +11,12 @@ const mada = Mada({
 });
 
 export const metadata: Metadata = {
-  title: 'مطعم السودان - أشهى المأكولات السودانية',
+  title: 'حوش ادريس سيريه - أشهى المأكولات السودانية',
   description: 'أفضل مطعم للمأكولات السودانية في المملكة العربية السعودية',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}: {children: React.ReactNode;}) 
+{
   return (
     <html lang="ar" dir="rtl">
       <body className={`${mada.variable} font-mada bg-white`}>
