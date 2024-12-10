@@ -1,58 +1,64 @@
 // Menu Data
 export const menuCategories = [
   { id: 'meat', name: 'مشويات' },
-  { id: 'burger', name: 'برجر' },
+  { id: 'flafel', name: 'فلافل' },
   { id: 'drinks', name: 'مشروبات' },
 ];
 
 export const menuItems = [
   {
     id: 1,
-    category: 'meat',
-    name: 'كباب لحم',
-    description: 'كباب لحم بقري طازج مع صلصة خاصة',
+    category: "meat",
+    name: "كباب لحم",
+    description: "كباب لحم بقري طازج مع صلصة خاصة",
     price: 45,
-    image: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2075',
+    image:
+      "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2075",
   },
   {
     id: 2,
-    category: 'meat',
-    name: 'شقف مشوي',
-    description: 'قطع لحم مشوية مع البهارات السودانية',
+    category: "meat",
+    name: "شقف مشوي",
+    description: "قطع لحم مشوية مع البهارات السودانية",
     price: 55,
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069',
+    image:
+      "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069",
   },
   {
     id: 3,
-    category: 'burger',
-    name: 'برجر سوداني',
-    description: 'برجر لحم مع جبنة وخضروات طازجة',
+    category: "flafel",
+    name: "فول مدمس",
+    description: " فول مدمس ساده ",
     price: 35,
-    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2099',
+    image:
+      "https://media.istockphoto.com/id/2182844887/photo/fava-beans-salad-with-tomatoes-parsley-lemon-and-mint.webp?a=1&b=1&s=612x612&w=0&k=20&c=Fo6ttxlu56AlDBTYXVAm3HN2IlJkstrF3n0HP3p-kdE=",
   },
   {
     id: 4,
-    category: 'burger',
-    name: 'برجر دجاج',
-    description: 'برجر دجاج مشوي مع صلصة خاصة',
+    category: "flafel",
+    name: "طعميه ",
+    description: "طعميه ساده",
     price: 30,
-    image: 'https://images.unsplash.com/photo-1513185158878-8d8c2a2a3da3?q=80&w=2070',
+    image:
+      "https://media.istockphoto.com/id/1446697978/photo/two-falafels-and-a-broken-half-on-a-white-background-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=roLLX76afX6NiXeyvqGtg1vot4cArrqzLluwvV5y3JU=",
   },
   {
     id: 5,
-    category: 'drinks',
-    name: 'عصير مانجو',
-    description: 'عصير مانجو طازج',
+    category: "drinks",
+    name: "عصير مانجو",
+    description: "عصير مانجو طازج",
     price: 15,
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=2087',
+    image:
+      "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=2087",
   },
   {
     id: 6,
-    category: 'drinks',
-    name: 'شاي سوداني',
-    description: 'شاي سوداني أصيل بالهيل',
+    category: "drinks",
+    name: "شاي سوداني",
+    description: "شاي سوداني أصيل بالهيل",
     price: 10,
-    image: 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?q=80&w=2071',
+    image:
+      "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?q=80&w=2071",
   },
 ];
 
