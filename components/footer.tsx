@@ -21,11 +21,11 @@ export function Footer() {
           <div className="text-center sm:text-right">
             <h3 className="text-lg sm:text-xl font-bold mb-4">تواصل معنا</h3>
             <ul className="space-y-2">
-              <li className="flex items-center justify-center sm:justify-end">
+              <li className="flex items-center justify-center sm:justify-start">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
                 <span className="text-sm sm:text-base">{restaurantInfo.contact.phone}</span>
               </li>
-              <li className="flex items-center justify-center sm:justify-end">
+              <li className="flex items-center justify-center sm:justify-start">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
                 <span className="text-sm sm:text-base">{restaurantInfo.contact.email}</span>
               </li>
@@ -33,7 +33,7 @@ export function Footer() {
           </div>
           <div className="text-center sm:text-right">
             <h3 className="text-lg sm:text-xl font-bold mb-4">العنوان</h3>
-            <div className="flex items-center justify-center sm:justify-end">
+            <div className="flex items-center justify-center sm:justify-start">
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
               <span className="text-sm sm:text-base">{restaurantInfo.location.address}</span>
             </div>
@@ -41,7 +41,7 @@ export function Footer() {
           <div className="text-center sm:text-right">
             <h3 className="text-lg sm:text-xl font-bold mb-4">ساعات العمل</h3>
             <ul className="space-y-2">
-              <li className="flex items-center justify-center sm:justify-end">
+              <li className="flex items-center justify-center sm:justify-start">
                 <Clock className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
                 <div className="text-sm sm:text-base">
                   <p>أيام الأسبوع: {restaurantInfo.hours.weekdays}</p>

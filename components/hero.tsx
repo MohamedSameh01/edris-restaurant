@@ -9,16 +9,19 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1532634922-8fe0b757fb13?q=80&w=2072',
-    alt: 'كباب سوداني',
+    image:
+      "https://images.unsplash.com/photo-1730082460730-573793ec7c8f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "كباب سوداني",
   },
   {
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069',
-    alt: 'مشويات سودانية',
+    image:
+      "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069",
+    alt: "مشويات سودانية",
   },
   {
-    image: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?q=80&w=2070',
-    alt: 'أطباق شرقية',
+    image:
+      "https://images.unsplash.com/photo-1606728035253-49e8a23146de?q=80&w=2070",
+    alt: "أطباق شرقية",
   },
 ];
 

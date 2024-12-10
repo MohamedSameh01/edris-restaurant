@@ -16,7 +16,7 @@ export function About() {
         >
           <div className="relative h-[400px]">
             <img
-              src="https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?q=80&w=2070"
+              src="https://images.unsplash.com/photo-1620065263328-9a796ae13db6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="طبق سوداني تقليدي"
               className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl"
             />
@@ -26,11 +26,15 @@ export function About() {
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
               {restaurantInfo.about}
             </p>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-6 sm-grid-cols-1 ">
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="font-bold mb-2">ساعات العمل</h3>
-                <p className="text-gray-600">أيام الأسبوع: {restaurantInfo.hours.weekdays}</p>
-                <p className="text-gray-600">نهاية الأسبوع: {restaurantInfo.hours.weekends}</p>
+                <p className="text-gray-600">
+                  أيام الأسبوع: {restaurantInfo.hours.weekdays}
+                </p>
+                <p className="text-gray-600">
+                  نهاية الأسبوع: {restaurantInfo.hours.weekends}
+                </p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="font-bold mb-2">تواصل معنا</h3>

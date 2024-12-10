@@ -96,7 +96,7 @@ export const restaurantInfo = {
   contact: {
     phone: '+966 50 123 4567',
     whatsapp: '+966 50 123 4567',
-    email: 'aaaaaa',
+    email: 'edris@mail.com',
   },
   hours: {
     weekdays: '١٢:٠٠ م - ١٢:٠٠ ص',
